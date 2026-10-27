@@ -1,0 +1,65 @@
+<html>
+<head>
+<title>registration form</title>
+</head>
+<link rel="stylesheet" href="prg5.css">
+<body>
+<h2>Registration Form</h2>
+<form>
+<fieldset>
+<legend>User information</legend>
+<label>Name:</label>
+<select>
+<option>mr.</option>
+<option>mrs.</option>
+<input type="text"name="name"required>
+<br>
+<br>
+<label>Phone no:</label>
+<input type="tel"name="phone"required>
+<label>Email:</label>
+<input type="email"name="email"required>
+</fieldset>
+<br>
+<br>
+<fieldset>
+<label>Adress:</label>
+<input type="adress"name="adress"required>
+<br>
+<br>
+<label>Gender:</label>
+<input type="radio"id="male"name="gender"value="male"required>
+<label for="male">male</label>
+<input type="radio"id="female"name="gender"value="female"required>
+<label for="female">female</label>
+<input type="radio"id="others"name="gender"value="others"required>
+<label for="others">others</label>
+<br>
+<br>
+<label>Language known:</label>
+<input type="radio"id="english"name="language"value="english"required>
+<label for="english">english</label>
+<input type="radio"id="malayalam"name="language"value="malayalam"required>
+<label for="malayalam">malayalam</label>
+<input type="radio"id="hindi"name="language"value="hindi"required>
+<label for="hindi">hindi</label>
+<br>
+<br>
+<label>Course:</label>
+<select>
+<option>Course</option>
+<option>BCA</option>
+<option>MCA</option>
+<option>BBA</option>
+<option>MBA</option>
+</select>
+</feildset>
+<br>
+<br>
+<br>
+<feildset>
+<button class="my-button"value="register">submit</button>
+<input type="reset"value="clear">
+</feildset>
+</body>
+</html>
