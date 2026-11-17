@@ -1,0 +1,34 @@
+<html>
+<head>
+<title>button</title>
+<style>
+button
+{width:250px;
+height:150px;
+display:block;
+margin:100px auto;
+font-size:50px;
+}
+p
+{
+display:block;
+text-align:center;
+margin-top:30px;
+font-size:40px;
+}
+</style>
+</head>
+<body>
+<button onclick="background()">click me</button>
+<p style="text-align:center;">to change background color</p>
+<script>
+       function background()
+       {
+                var r=Math.floor(Math.random()*256);
+                var g=Math.floor(Math.random()*256);
+                var b=Math.floor(Math.random()*256);
+ document.body.style.backgroundColor="rgb("+r+","+g+","+b+")";
+ }
+</script>
+</body>
+</html>
